@@ -1367,6 +1367,8 @@ iframe {
   /* FIX 16: footer must stay in bounds */
   width: 100%;
   overflow: hidden;
+  position: relative;
+  bottom: 0px;
 }
 
 .footer-inner {
@@ -1724,7 +1726,8 @@ iframe {
     padding: 5px 5px;
     max-width: 95%;
   }
-  .btn.btn-download{
+
+  .btn.btn-download {
     padding: 5px 5px;
   }
 }
